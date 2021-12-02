@@ -1,0 +1,34 @@
+!SESSION 2010-02-04 15:46:48.687 -----------------------------------------------
+eclipse.buildId=I20080617-2000
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-02-04 15:47:44.750
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-02-04 15:47:44.750
+!MESSAGE Conflict for 'org.eclipse.wst.sse.ui.format':
+HandlerActivation(commandId=org.eclipse.wst.sse.ui.format,
+	handler=org.eclipse.wst.sse.ui.internal.handlers.FormatHandler,
+	expression=org.eclipse.core.internal.expressions.ReferenceExpression@2c63552c,sourcePriority=1073741824)
+HandlerActivation(commandId=org.eclipse.wst.sse.ui.format,
+	handler=org.eclipse.wst.sse.ui.internal.handlers.FormatHandler,
+	expression=org.eclipse.core.internal.expressions.ReferenceExpression@b8a39b5e,sourcePriority=1073741824)
+!SESSION 2010-02-04 16:25:58.109 -----------------------------------------------
+eclipse.buildId=I20080617-2000
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-02-04 16:26:18.296
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-02-04 16:26:18.296
+!MESSAGE Conflict for 'org.eclipse.wst.sse.ui.format':
+HandlerActivation(commandId=org.eclipse.wst.sse.ui.format,
+	handler=org.eclipse.wst.sse.ui.internal.handlers.FormatHandler,
+	expression=org.eclipse.core.internal.expressions.ReferenceExpression@b8a39b5e,sourcePriority=1073741824)
+HandlerActivation(commandId=org.eclipse.wst.sse.ui.format,
+	handler=org.eclipse.wst.sse.ui.internal.handlers.FormatHandler,
+	expression=org.eclipse.core.internal.expressions.ReferenceExpression@d4f4315e,sourcePriority=1073741824)
