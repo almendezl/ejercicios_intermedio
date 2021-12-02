@@ -1,0 +1,42 @@
+objeto de tipo fecha 
+-hacer la abstraccion
+
+*Diagrama UML
+_______________________________________________________________
+                     Fecha
+_______________________________________________________________
+-año:int
+-mes: int
+-dia: int
+_______________________________________________________________
+<<constructor>>Fecha(año: int, mes: int, dia: int)
++diferencia(inicio: Fecha, fin Fecha)    -->en termino de dias
++getAño():int
++setAño(int año)
++getMes():int
++setMes(int mes)
++getDia():int
++setDia(int dia)
++toString():String
++diasDelMes(int mes):int
++bisiesto(int anio):boolean
+
+
+
+_______________________
+
+
+clase Persona
+
+_______________________________
+	Persona
+_______________________________
+-id: String
+-nombre: String
+-apellido: String
+-fechaNac: Fecha
+______________________________
+<<constructor>> Persona(id: String,  nombre: String,apellido: String,fechaNac: Fecha)
++calcularEdad(FechaActual Fecha): int
++get
++ set
